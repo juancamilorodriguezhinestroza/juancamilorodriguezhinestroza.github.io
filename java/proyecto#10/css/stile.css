@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    
+}
+/*section slider carousel*/
+#slider{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+#slider::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.8);
+}
+#slider .owl-item div {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+   
+
+}
+.container .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .menu .nav {
+    padding: 26px 0;
+
+}
+.container .menu .nav a {
+    text-decoration: none;
+    color: rgb(0, 47, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 10px;
+    transition: all;
+}
+.container .menu .nav a:hover {
+    background: #1a1c2b5b;
+}
+.texto-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.texto-slider h2 {
+    font-size: 55px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    animation: animate 2s 1; /*actualizando */
+}
+.texto-slider h2 span {
+    color: #2a679f;
+
+}
+.texto-slider p {
+    font-size: 18px;
+    color: #fff;
+    padding: 0 30px;
+    animation: animate 3s 1; /*actualizando */
+
+}
+.texto-slider .btn-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.texto-slider .btn-slider a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 45px;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+.texto-slider .btn-slider a.btn-1{
+    background: #0f3a96cc;
+}
+.texto-slider .btn-slider a.btn-2{
+    background-color: #fff;
+    color: #081690;
+}
+.texto-slider .btn-slider a.btn-1:hover{
+    background-color: transparent;
+}
+.texto-slider .btn-slider a.btn-2:hover{
+    background: #0f1896;
+    color: #fff;
+}
+/*Section nosotros */
+.nosotros-area{ /* actualizando */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+}
+
+.nosotros-area p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 0;
+}
+.section-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.section-title span {
+    color: #3762a3;
+
+}
+ul.nosotros-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.nosotros-content li {
+    padding: 20px;
+    height: 500px;
+    list-style: none;
+}
+.nosotros-left {
+    flex-basis: 30%;
+
+}
+.nosotros-right {
+    flex-basis: 70%;
+}
+.nosotros-right h2 {
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+/*Section de mensajes*/
+section.mensaje-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+    background: linear-gradient(rgba(0, 0,0, 0.8), rgba(0, 0,0, 0.8)), url(../img/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+.mensaje-area .mensaje-content h2{
+    margin-bottom: 10px;
+}
+/*Section de portafolio*/
+section.productos-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+    color: #000;
+    text-align: center;
+
+}
+.productos-area .section-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.productos-area .section-title span {
+    color: #2f588f;
+}
+ul.productos-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.productos-content li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+    list-style: none;
+}
+.productos-content img {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.productos-content li h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.producros-content li p {
+    margin: 0;
+
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+section.clientes-area{
+    width: 100%;
+    padding: 110px 110px;
+
+}
+.clientes-content{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 2.2re;
+
+}
+.item{
+    animation: animateX 8s alternate linear infinite;
+}
+.item:hover{
+    animation-play-state: paused;
+}
+@keyframes animateX {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        transform:translate3d(-1100px,0,0);
+    }
+}
+section.contactos-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+    color: #fff;
+    background-color: #000;
+    padding: 60px 0;
+}
+.contactos-area .section-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.contactos-area .section-title span {
+    color: #2b6286;
+}
+ul.contactos-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contactos-content li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+    list-style: none;
+}
+.contactos-content li i {
+    font-size: 50px;
+    color: #180c81;
+    margin-bottom: 25px;
+
+}
+.contactos-content li p {
+    margin: 0;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(38, 0, 255);
+    padding: 60px 0;
+
+}
