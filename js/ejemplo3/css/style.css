@@ -1,0 +1,27 @@
+h1{
+    background-color: aqua;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    border: 12px;
+}
+.menu{
+    background-color: rgb(193, 231, 231);
+    color: rgb(142, 99, 99);
+    padding: 12px;
+    text-align:left;
+    border: 12px;  
+}
+body{
+    background-color: rgb(231, 225, 193);
+   
+
+}
+h3{
+    background-color: rgb(193, 231, 231);
+    color: rgb(142, 99, 99);
+    padding: 12px;
+    text-align:left;
+    border: 12px;  
+}
+

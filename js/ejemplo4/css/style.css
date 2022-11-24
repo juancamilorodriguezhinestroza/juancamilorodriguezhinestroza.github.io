@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+dody{
+    font-family: 'Roboto',sans-serif;
+    background-color:antiquewhite;
+}
+
+h1{
+    background-color: rgb(136, 136, 239);
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+p{
+    text-align: justify;
+    background-color: aliceblue;
+    color: black;
+    padding: 20px;
+    border: 12px;
+}
+body{
+    background-color: antiquewhite;
+}

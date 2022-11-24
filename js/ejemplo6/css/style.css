@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+   font-family: 'oswald', sans-serif;
+   background-color:chocolate;
+}
+
+body header{
+    background-color: rgb(255, 51, 0);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+body heder h1{
+    text-shadow:10px 10px 12px rgb(9, 2, 19) ;
+    
+    color: rgb(255, 255, 255);
+  
+}
+body header nav{
+    background-color:darkgray ;
+    padding: 10px;
+    margin-top: 10px;
+}
+body header nav a{
+    background-color: rgb(225, 255, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+box-shadow: 5px 5px 6px rgb(111, 48, 206);
+
+}
+.js{
+    padding: 30px;
+}

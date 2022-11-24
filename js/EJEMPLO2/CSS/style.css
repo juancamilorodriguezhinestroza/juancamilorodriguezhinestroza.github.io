@@ -1,0 +1,27 @@
+body{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 12;
+     
+}
+h1{
+background-color: cadetblue;
+text-align: center;
+padding: 12px;
+border-radius: 12;
+}
+a{
+    background-color: cyan;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12;
+}
+div{
+    background-color: cyan;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12;
+}
