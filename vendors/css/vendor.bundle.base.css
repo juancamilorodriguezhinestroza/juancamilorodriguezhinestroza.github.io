@@ -1,9 +1,6 @@
 /*
  * Container style
  */
- body{
-  background-color: black;
- }
 .ps {
   overflow: hidden !important;
   overflow-anchor: none;

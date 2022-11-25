@@ -1,0 +1,14 @@
+.banner-image {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+}
+
+body{
+    background-color: rgb(179, 179, 179);
+}
+p{
+    color: rgb(0, 0, 0);
+}
+#div.text-muted p{
+    color: slateblue;
+}
